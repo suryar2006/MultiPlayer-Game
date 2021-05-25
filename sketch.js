@@ -2,6 +2,7 @@ var dataBase;
 var game,form,player
 var gameState=0
 var playerCount=0
+var allPlayerInformation
 function setup(){
     createCanvas(500,500);
     dataBase=firebase.database()    //initialising fire base and data base
